@@ -26,7 +26,7 @@ compiler:
 script:
   - srcdir=~/src
   - subdir=ssh-pageant
-  - pkgbuild_repo=https://github.com/Alexpux/MSYS2-packages/trunk/ssh-pageent-git
+  - pkgbuild_repo=https://github.com/Alexpux/MSYS2-packages/trunk/ssh-pageant-git
   - svn co ${pkgbuild_repo} ${srcdir}
   - ln -svf ${PWD} ${srcdir}/${subdir}
   - cp ${srcdir}/PKGBUILD ~
